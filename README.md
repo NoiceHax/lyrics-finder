@@ -1,12 +1,78 @@
-# React + Vite
+🎵 Lyrics Finder
+A simple and responsive web application built with React to search and find lyrics of your favorite songs. The Lyrics Finder allows users to search for songs by title, artist, or album and view their lyrics in an easy-to-read format. 🎤
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features ✨
+🔍 Search for song lyrics by song title, artist, or album.
 
-Currently, two official plugins are available:
+📜 Display lyrics for a selected song.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📱 Responsive and user-friendly interface.
 
-## Expanding the ESLint configuration
+🎨 Clean and modern design built with React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack 🛠️
+React: Frontend framework for building the user interface.
+
+Axios: To handle API requests to fetch song lyrics.
+
+HTML/CSS: Basic structure and styling.
+
+Font Awesome: For icons.
+
+Installation 🚀
+Follow these steps to get your development environment up and running:
+
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/NoiceHax/lyrics-finder.git
+Navigate to the project folder:
+
+bash
+Copy
+Edit
+cd lyrics-finder
+Install the required dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+Your app should now be running on http://localhost:5173. 🎉
+
+Usage 💻
+Open the website in your browser.
+
+Enter the song title, artist, or album in the search bar.
+
+Select the song from the search results to view its lyrics. 🎶
+
+API Integration 🔗
+This project uses an external API to fetch lyrics for songs. You may want to replace it with your own API or modify the current implementation to suit your needs.
+
+API Used 🌐
+Lyrics.ovh API (or any other lyrics provider API).
+
+Contributing 🤝
+We welcome contributions to improve this project. To contribute, please follow these steps:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature-name).
+
+Commit your changes (git commit -am 'Add new feature').
+
+Push to the branch (git push origin feature-name).
+
+Create a pull request.
+
+License 📜
+This project is licensed under the MIT License - see the LICENSE file for details.
